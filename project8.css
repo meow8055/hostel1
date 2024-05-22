@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.home{
+    position: relative;
+    top: 0;
+    background-image: url(1.png);
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    
+    color: black;
+    background-color: rgb(181, 120, 238);
+    font-family: 'poppins',sans-serif;
+}
+.navbar .logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    left: 10px;
+    margin-left: 2px;
+    padding-top: 10px;
+}
+.navbar .menu{
+
+    width: 100%;
+   color: white;
+    margin-left: 385px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .4s ease;
+}
+.menu ul li a:hover{
+    color: black;
+}
+.navbar .button{
+   /* border:  2px solid white;*/
+    text-align: center;
+    padding-top: 20px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.info{
+    position: relative;
+    top: 180px;
+    padding: 20px;
+}
+.info .text{
+    color: black;
+
+}
+.text span{
+    color: blueviolet;
+}
+.text h1{
+    font-size: 50px;
+    color: ;
+}
+.text a{
+    text-decoration: none;
+    color: white;
+   /* border: 2px solid yellow;*/
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.text .btn{
+   /* border: 2px solid green;*/
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+   /* border: 2px solid white;*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: blueviolet;
+    border-radius: 9px;
+}
+.btn a:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+/*
+.about{
+    background-color: black;
+    font-family: 'Poppins',sans-serif;
+   /* display: grid;
+    grid-template-columns: 4fr 4fr;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid green;
+}
+.about .image{
+    border:  2px solid white;
+     margin-top: 150px;
+     margin-left: 60px;
+     
+}
+.image img{
+    border: 5px white solid;
+    box-shadow: 4px;
+}
+.about .abouttext{
+    color: white;
+    margin-top: 170px;
+    margin-left: 50px;
+    text-indent: 40px;
+    padding: 20px;
+    border: 2px solid white;
+}
+.about .abouttext h1{
+    
+
+}
+.about span{
+    color: aliceblue;
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 2px solid white;
+}*/
+
+
+.about{
+    background-color: white;
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    width: 100%;
+    height: 100vh;
+}
+.about h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+    color: blueviolet;
+   /* border: 2px solid black;*/
+    position: relative;
+    top: 35px;
+}
+.about .info1{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+.info1 .image{
+   /* border:  2px solid whitesmoke;*/
+    margin-top: 9%;
+    margin-left:9%;
+    /*box-shadow: 0px 5px 15px goldenrod;*/
+}
+.info1 img{
+    box-shadow: 2px 5px 15px black;
+}
+.info1 .text1{
+    /*border:  2px solid white;*/
+    margin-top: 17%;
+    text-indent: 40px;
+
+}
+.text1 .btn1{
+   /* border: 2px solid white;*/
+    margin-top: 35px;
+}
+.text1 .btn1 a{
+    text-decoration: none;
+    color: white;
+   /* border: 2px solid white;*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: blueviolet;
+    border-radius: 9px;
+}
+.btn1 a:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+
+
+.services{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+}
+.services h1{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+  /* border:  2px solid black;*/
+   padding-top: 80px;
+    
+}
+.row{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 40px;
+   /* border: 2px solid black;*/
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.box{
+  /*  border: 2px solid black;*/
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: .5s ease;
+    width: 250px;
+    height: 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.box i{
+    font-size: 40px;
+    margin-top: 8px;
+}
+.box h2{
+    font-weight: 600;;
+    margin-bottom: 8px;
+}
+.box p{
+    font-size: 13px;
+    padding: 
+}
+.box:hover{
+    background-color: blueviolet;
+    color: black;
+    transform: scale(1.05);
+}
+html{
+    scroll-behavior: smooth;
+}
